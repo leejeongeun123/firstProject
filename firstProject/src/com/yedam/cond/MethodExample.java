@@ -2,9 +2,9 @@ package com.yedam.cond;
 
 public class MethodExample {
 	public static void main(String[] args) {
-		multiTable (3,5)
-		multiTable 
-		multiTable
+//		multiTable (3,5)
+//		multiTable 
+//		multiTable
 //		int num = 2;
 //		for (; num <= 9; num++)
 //			multiTable(num);
