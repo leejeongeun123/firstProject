@@ -38,7 +38,7 @@ public class StudentTest {
 				
 				list.add(new Student (studentName, Mathscore, Englishscore));
 
-				
+			
 			}
 		}
 	}
