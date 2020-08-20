@@ -3,6 +3,7 @@ package com.yedam.classes;
 public class PersonExample {
 	public static void main(String[] args) {
 		Person p1 = new Person();
+		p1.name = "111";
 		p1.setName("이정은");
 		p1.setAge(25);
 		

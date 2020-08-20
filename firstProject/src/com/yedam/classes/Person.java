@@ -23,7 +23,7 @@ public class Person {
 		return "이름은 " + name + " 나이는 " + age ;
 	}
 	
-	public String getName() {
+	public String getName() { //get - 값을 가져옴
 		return name;
 	}
 	
