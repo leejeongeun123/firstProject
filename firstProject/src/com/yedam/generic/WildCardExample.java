@@ -39,12 +39,12 @@ public class WildCardExample {
 		//직장인 등록가능. Course<? super Worker>
 		registerCourseWorker(crsPerson);
 		registerCourseWorker(crsWorker);
-		registerCourseWorker(crsStudent);
-		registerCourseWorker(crsHighStudent);
+//		registerCourseWorker(crsStudent);
+//		registerCourseWorker(crsHighStudent);
 		
 		// 학생 등록가능.Course<? extends Student>
-		registerCourseStudent(crsPerson);
-		registerCourseStudent(crsWorker);
+//		registerCourseStudent(crsPerson);
+//		registerCourseStudent(crsWorker);
 		registerCourseStudent(crsStudent);
 		registerCourseStudent(crsHighStudent);
 		// 고등학생 가능.

@@ -1,13 +1,13 @@
 package com.yedam.collection;
 
-public class Student {
+public class Student implements Comparable<Student> {
 	private String name;
-	private int mathScore;
+	private int MathScore;
 	private int engScore;
 	
-	public Student(String name, int mathScore, int engScore) {
+	public Student(String name, int MathScore, int engScore) {
 	this.name = name;
-	this.mathScore = mathScore;
+	this.MathScore = MathScore;
 	this.engScore=engScore;
 	}
 
@@ -20,11 +20,11 @@ public class Student {
 	}
 
 	public int getMathScore() {
-		return mathScore;
+		return MathScore;
 	}
 
-	public void setMathScore(int mathScore) {
-		this.mathScore = mathScore;
+	public void setMathScore(int MathScore) {
+		this.MathScore = MathScore;
 	}
 
 	public int getEngScore() {
@@ -33,6 +33,16 @@ public class Student {
 
 	public void setEngScore(int engScore) {
 		this.engScore = engScore;
+	}
+
+//	@Override
+//	public int compareTo(Student o) {
+//		return this.MathScore - o.MathScore;
+//	}
+//	
+	@Override
+	public int compareTo(Student o) {
+		return this.MathScore - o.MathScore;
 	}
 	
 }
